@@ -1,0 +1,64 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"username": "sassakiceci",
+			"password": "1234",
+			"name": "Cecilia",
+			"last_name": "Sassaki",
+			"status": "Online",
+			"profile_picture": ""
+		},
+		{
+			"id": 2,
+			"username": "ramsaygord",
+			"password": "1234",
+			"name": "Gordom",
+			"last_name": "Ramsay",
+			"status": "Online",
+			"profile_picture": ""
+		}
+	],
+	"chats": [
+		{
+			"id": 1,
+			"chat_picture": "",
+			"users_id": [],
+			"sents_id": []
+		}
+	],
+	"sent": [
+		{
+			"date": "Sun Jan 29 2023 21:27:03 GMT-0300 (Horário Padrão de Brasília)",
+			"message": {
+				"media": [""],
+				"text": "Tive uma ideia incrível para um projeto! 😍"
+			},
+			"user_id": 1
+		},
+		{
+			"date": "Sun Jan 29 2023 21:27:03 GMT-0300 (Horário Padrão de Brasília)",
+			"message": {
+				"media": [""],
+				"text": "E se a gente fizesse um chat moderno e responsivo em apenas uma semana?"
+			},
+			"user_id": 1
+		},
+		{
+			"date": "Sun Jan 29 2023 21:27:03 GMT-0300 (Horário Padrão de Brasília)",
+			"message": {
+				"media": [""],
+				"text": "Sério? Me conta mais."
+			},
+			"user_id": 2
+		},
+		{
+			"date": "Sun Jan 29 2023 21:27:03 GMT-0300 (Horário Padrão de Brasília)",
+			"message": {
+				"media": [""],
+				"text": "#boraCodar! 🚀"
+			},
+			"user_id": 2
+		}
+	]
+}
