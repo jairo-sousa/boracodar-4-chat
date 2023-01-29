@@ -1,7 +1,9 @@
+import { Box } from "@chakra-ui/react";
+
 export function App() {
 	return (
 		<div className="App">
-			<h1>TODO APP</h1>
+			<Box fontFamily="Roboto, sans-serif">TODO APP</Box>
 		</div>
 	);
 }
