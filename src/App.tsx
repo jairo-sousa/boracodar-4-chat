@@ -1,5 +1,5 @@
 import { Box, Flex, Input } from "@chakra-ui/react";
-import { Chatheader } from "./components/Chatheader";
+import { ChatHeader } from "./components/ChatHeader";
 import { Sents } from "./components/Sents";
 import { SendForm } from "./components/SendForm";
 
@@ -13,7 +13,7 @@ export function App() {
 				w="100%"
 				h="4100%"
 			>
-				<Chatheader />
+				<ChatHeader />
 				<Sents />
 				<SendForm />
 			</Flex>
