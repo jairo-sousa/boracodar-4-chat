@@ -23,7 +23,10 @@ export function SendForm() {
 				outline="transparent"
 			></Input>
 			<Button backgroundColor="transparent">
-				<Image src="src/assets/send.svg" alt="chat image" />
+				<Image
+					src="https://raw.githubusercontent.com/jairo-sousa/boracodar-4-chat/main/.github/send.svg"
+					alt="chat image"
+				/>
 			</Button>
 		</Flex>
 	);

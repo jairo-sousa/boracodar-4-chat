@@ -99,7 +99,7 @@ export function Sents() {
 				pb="0.5rem"
 				size="1.2rem"
 				color="#E1E1E6"
-				w="100%"
+				w="85.93%"
 				align="center"
 				position="fixed"
 				backgroundColor="#1a1924"

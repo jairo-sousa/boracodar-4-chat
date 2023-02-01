@@ -4,7 +4,7 @@ export function ChatHeader() {
 	return (
 		<Flex w="100%" justify="space-between" gap="1.6rem">
 			<Image
-				src="src/assets/chatImage.svg"
+				src="https://raw.githubusercontent.com/jairo-sousa/boracodar-4-chat/main/.github/chatImage.svg"
 				alt="chat image"
 				w="4.8rem"
 				h="4.8rem"
@@ -26,7 +26,10 @@ export function ChatHeader() {
 				</Flex>
 			</Flex>
 			<Button backgroundColor="transparent">
-				<Image src="src/assets/close.svg" alt="close buton" />
+				<Image
+					src="https://raw.githubusercontent.com/jairo-sousa/boracodar-4-chat/main/.github/close.svg"
+					alt="close buton"
+				/>
 			</Button>
 		</Flex>
 	);

@@ -1,6 +1,5 @@
 <h1 align="center"> Uchat </h1>
 <p align="center">Responsive chat for desktop or mobile</p>
-<p align="center">IN PRODUCTION!</p>
 
 <a align="center" href="https://luminous-strudel-76439d.netlify.app/">
   <img alt="App preview" src="./.github/preview.svg">
