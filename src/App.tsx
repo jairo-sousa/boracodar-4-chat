@@ -5,18 +5,18 @@ import { SendForm } from "./components/SendForm";
 
 export function App() {
 	return (
-		<Box className="App" w="85.93%" h="89.84%">
-			<Flex
-				direction="column"
-				fontFamily="Roboto, sans-serif"
-				color="white"
-				w="100%"
-				h="100%"
-			>
-				<ChatHeader />
-				<Sents />
-				<SendForm />
-			</Flex>
-		</Box>
+		<Flex
+			className="App"
+			w="85.93%"
+			h="89.84%"
+			direction="column"
+			justify="space-between"
+			fontFamily="Roboto, sans-serif"
+			color="white"
+		>
+			<ChatHeader />
+			<Sents />
+			<SendForm />
+		</Flex>
 	);
 }
