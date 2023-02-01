@@ -2,7 +2,7 @@ import { Flex, Heading, Image, Text, Box, Button } from "@chakra-ui/react";
 
 export function ChatHeader() {
 	return (
-		<Flex w="100%" justify="space-between">
+		<Flex w="100%" justify="space-between" gap="1.6rem">
 			<Image
 				src="src/assets/chatImage.svg"
 				alt="chat image"
