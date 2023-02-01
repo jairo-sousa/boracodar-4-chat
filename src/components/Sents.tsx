@@ -35,6 +35,38 @@ export function Sents() {
 			},
 			user_id: 2,
 		},
+		{
+			date: "11:24",
+			message: {
+				media: [""],
+				text: "Tive uma ideia incrível para um projeto! 😍",
+			},
+			user_id: 1,
+		},
+		{
+			date: "11:26",
+			message: {
+				media: [""],
+				text: "E se a gente fizesse um chat moderno e responsivo em apenas uma semana?",
+			},
+			user_id: 1,
+		},
+		{
+			date: "11:25",
+			message: {
+				media: [""],
+				text: "Sério? Me conta mais.",
+			},
+			user_id: 2,
+		},
+		{
+			date: "11:27",
+			message: {
+				media: [""],
+				text: "#boraCodar! 🚀",
+			},
+			user_id: 2,
+		},
 	];
 
 	sents.sort(function (a, b) {
@@ -50,9 +82,29 @@ export function Sents() {
 		}
 	});
 	return (
-		<Flex py="1.4rem" align="start" h="100%" direction="column" gap="3rem">
-			<Text size="1.2rem" color="#E1E1E6" w="100%" align="center">
-				Hoje 11:30
+		<Flex
+			my="1.4rem"
+			align="start"
+			h="100%"
+			direction="column"
+			gap="3rem"
+			overflow="scroll"
+			sx={{
+				"::-webkit-scrollbar": {
+					display: "none",
+				},
+			}}
+		>
+			<Text
+				pb="0.5rem"
+				size="1.2rem"
+				color="#E1E1E6"
+				w="100%"
+				align="center"
+				position="fixed"
+				backgroundColor="#1a1924"
+			>
+				Hoje {sents[0].date}
 			</Text>
 
 			{sents.map((sent, i) => {
